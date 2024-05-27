@@ -46,7 +46,7 @@ Text text text
 SELECT COUNT (phone) AS total_phones
 FROM client
 ```
-#### Mostrar el total de nombres
+### Mostrar el total de nombres
 Para mostrar todos los nombres que usamos a la función COUNT () pasandole como parametro el campo, en caso "fullname"
 ```
 SELECT FORM (fullname) AS total_names
@@ -70,3 +70,4 @@ Selccionar total del cliente
 <img src="./Capturas/16.png"/>
 Selccionar el total de ciudades creadas sin repetirse
 <img src="./Capturas/17.png"/>
+En coclución estas funciónes muestran una clasificación como conte de datos.
