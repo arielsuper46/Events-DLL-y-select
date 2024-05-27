@@ -13,7 +13,7 @@ city VARCHAR (50),
 credit_Limit DECIMAL(7,2)
 );
 ```
-<img src="./Capturas/10.png"/>
+
 
 ### Inserción de datos
 Text text text
@@ -54,6 +54,19 @@ FROM client;
 ```
 
 #### Registros
-Selcionar fullname
-<img src="../Capturas" 
-
+Selccionar fullname
+<img src="./Capturas/10.png"/>
+Selccionar fullname como total names
+<img src="./Capturas/11.png"/>
+Selccionar phone como total phones
+<img src="./Capturas/12.png"/>
+Seleccionar telefono y nombres totales
+<img src="./Capturas/13.png"/>
+Selccionar telefono, nombres y el total general
+<img src="./Capturas/14.png"/>
+Selccionar total de la ciudades
+<img src="./Capturas/15.png"/>
+Selccionar total del cliente 
+<img src="./Capturas/16.png"/>
+Selccionar el total de ciudades creadas sin repetirse
+<img src="./Capturas/17.png"/>
