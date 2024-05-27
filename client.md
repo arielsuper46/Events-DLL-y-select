@@ -71,3 +71,45 @@ Selccionar total del cliente
 Selccionar el total de ciudades creadas sin repetirse
 <img src="./Capturas/17.png"/>
 En coclución estas funciónes muestran una clasificación como conte de datos.
+
+## Segunda tabla Product
+### Crear la tabla Product
+```
+CREATE TABLE product (
+  id SERIAL,
+  description VARCHAR(50) NOT NULL,
+  price DECIMAL (7,2),
+  category VARCHAR(20),
+  country_of_origin VARCHAR (50),
+  year_of_production INT,
+  PRIMARY KEY (id)
+);
+```
+### Insertar datos
+```
+INSERT INTO product (description, price, category, country_of_origin, year_of_production)
+VALUES
+('Smartphone XYZ', 799.99, 'Mobile Phones', 'China', 2023),
+('Laptop Pro 15"', 1299.99, 'Computers', 'USA', 2022),
+('4K TV 55"', 499.99, 'Televisions', 'South Korea', 2021);
+
+INSERT INTO product (description, category, country_of_origin, year_of_production)
+VALUES
+('Bluetooth Speaker', 'Audio', 'Germany', 2023),
+('Wireless Headphones', 'Audio', 'Japan', 2022),
+('Gaming Console', 'Gaming', 'USA', 2021);
+
+INSERT INTO product (description, price, category, year_of_production)
+VALUES
+('Smart Watch', 199.99, 'Wearables', 2023),
+('Tablet 10"', 299.99, 'Tablets', 2022),
+('Digital Camera', 449.99, 'Cameras', 2021);
+
+INSERT INTO product (description, price, category, country_of_origin, year_of_production)
+VALUES
+('Noise Cancelling Headphones', 299.99, 'Audio', 'Japan', 2023),
+('Smart Refrigerator', 1599.99, 'Appliances', 'South Korea', 2022),
+('Electric Scooter', 799.99, 'Transportation', 'China', 2023),
+('Smart Home Hub', 129.99, 'Home Automation', 'USA', 2021),
+('Fitness Tracker', 99.99, 'Wearables', 'Germany', 2023);
+```
