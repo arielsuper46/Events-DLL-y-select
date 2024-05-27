@@ -46,14 +46,14 @@ Text text text
 SELECT COUNT (phone) AS total_phones
 FROM client
 ```
-### Nostrar el total de nombres
+#### Mostrar el total de nombres
 Para mostrar todos los nombres que usamos a la función COUNT () pasandole como parametro el campo, en caso "fullname"
 ```
 SELECT FORM (fullname) AS total_names
 FROM client;
 ```
 
-#### Registros
+### Registros con SELECT 
 Selccionar fullname
 <img src="./Capturas/10.png"/>
 Selccionar fullname como total names
