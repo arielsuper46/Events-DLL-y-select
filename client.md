@@ -1,4 +1,4 @@
-# tarea en clase semana 8
+# Tarea en clase Semana 8
 ## La función count
 ### Creación de la tabla
 El siguiente código crea la tabla *client*
